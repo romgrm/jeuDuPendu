@@ -17,8 +17,11 @@ public final class App {
         game.startGame();
         game.tirageDuMot();
         game.cacherMot();
-        //game.afficherTest();
+        game.randomMotFixe();
         game.entrerUneLettre();
-         game.remplacerLettre();
+        game.remplacerLettre();
+        game.replay();
+        //game.finish();
+        game.victory();
     }
 }
